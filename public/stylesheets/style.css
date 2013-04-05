@@ -1,7 +1,14 @@
+.resume {
+  text-align: justify;
+}
 .resume h4 {
   text-transform: uppercase;
 }
+.resume header h3 {
+  text-align: center;
+}
 .resume header .information-row {
+  text-align: center;
   list-style-type: none;
 }
 .resume header .information-row li {
@@ -12,4 +19,7 @@
 }
 .resume header .information-row li:last-child {
   border-right: none;
+}
+.resume .range {
+  float: right;
 }
